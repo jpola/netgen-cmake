@@ -72,7 +72,7 @@ bool shellmode = false;
 #ifdef WIN32
 int DLL_HEADER NG_main(int argc, char ** argv)
 #else
-int main(int argc, char ** argv)
+int NG_main(int argc, char ** argv)
 #endif
 {
 
